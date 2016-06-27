@@ -1,0 +1,12 @@
+compiler:
+    # version: true
+    # zip: [
+    #     'app.js'
+    #     'source/'
+    # ]
+    copy:
+        files: ["app.js"]
+        dest:
+            relative: "../public"
+# browserify:
+#     excludes: []
